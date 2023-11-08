@@ -1,0 +1,141 @@
+.carousel-inner img{
+    height: 75vh;
+}
+.row button{
+    background: none;
+    background-color: rgb(73, 4, 91);
+    border: none;
+    width: 6rem;
+    border-radius: 1rem !important;
+    color: rgb(253, 252, 252);
+}
+
+.time{
+    font-size: 5rem;
+    color: white;
+    top: 11.8rem;
+    bottom: 6rem;
+    right: 11.2rem;
+    overflow-x: hidden; 
+    overflow-y: hidden; 
+    position: absolute;
+}
+
+.popup{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    width: 50%;
+    margin:100px auto;
+    width:fit-content;
+    height:fit-content;
+    font-family:verdana;
+    overflow-x: hidden; 
+    overflow-y: hidden; 
+    font-size:13px;
+    padding:10px;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 5px 10 rgb(6, 6, 6);
+    background-color:rgba(152, 7, 249, 0.5);
+    z-index:100000000000000000;
+    }
+    
+.close{
+   background-color: rgb(73, 4, 91);
+   border: none;
+   width: 6rem;
+   border-radius: .5rem !important;
+    color: rgb(253, 252, 252);
+    display:relative;
+    cursor:pointer;
+    margin:0;
+    float:right;
+    height:fit-content;
+    padding:0 0 5px 0;
+    text-align:center;
+    font-weight:bold;
+    font-size:13px;
+    border-radius:3px;
+    z-index:100000000000000000;
+    
+    }
+
+    .Cont{
+      display: flex;
+     gap: .5rem;
+    }
+
+   
+    .colorBtn{
+      width: 2rem;
+      height: 2rem;
+      border-radius: 2rem;
+      box-shadow: 5px 3px 5px 2px rgb(5, 4, 4);
+
+    }
+  
+ .curtim{
+  font-size: 2.5rem;
+  color: white;
+  top: 13rem;
+  bottom: 6rem;
+  right: 17rem;
+  overflow-x: hidden; 
+  overflow-y: hidden; 
+  position: absolute;
+ }
+
+ .switch button{
+  background-color: transparent;
+  border: none;
+      width: 3rem;
+      height: 2rem;
+      border-radius: 2rem;
+      box-shadow: 2px 3px 2px 2px rgb(5, 4, 4);
+ }
+
+ @media only screen and (max-width: 768px){
+  .popup{
+    display: flex;
+    flex-direction: column;
+    width:20rem;
+  }
+  .pic{
+    width: 15rem !important;
+  }
+  .Cont{
+    display: grid;
+    grid-template-columns: auto auto auto;   
+  }
+  .close{
+    position: relative;
+  }
+  .curtim{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(-90%, -90%);
+    font-size: 10px !important;
+    color: rgb(0, 255, 47) !important;
+    z-index: 2;
+    overflow-x: hidden; 
+    overflow-y: hidden; 
+  }
+ 
+  .time{
+    font-size: 4rem;
+    color: white;
+    top: 7rem;
+    bottom: 6rem;
+    right: 7.5rem;
+    overflow-x: hidden; 
+    overflow-y: hidden; 
+    position: absolute;
+}
+
+ }
